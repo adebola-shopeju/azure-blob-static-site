@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Page Not Found | Adebola</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(6rem, 20vw, 10rem);
+      font-weight: 700;
+      color: #e2e8f0;
+      line-height: 1;
+      margin-bottom: 1rem;
+      letter-spacing: -0.04em;
+    }
+    .error-page h1 {
+      font-size: 1.6rem;
+      color: #0f172a;
+      margin-bottom: 0.75rem;
+    }
+    .error-page p {
+      color: #64748b;
+      max-width: 380px;
+      margin-bottom: 2rem;
+    }
+    .cloud-icon {
+      width: 64px;
+      height: 64px;
+      background: #e6f2fc;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-logo">Adebola.</span>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <div class="error-page">
+    <div class="cloud-icon">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+        <path d="M8 22a5 5 0 01-.5-9.95A7 7 0 0122 14a5 5 0 01.5 9.95" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+        <line x1="16" y1="18" x2="16" y2="28" stroke="#0078D4" stroke-width="2" stroke-linecap="round"/>
+        <polyline points="12,24 16,28 20,24" stroke="#0078D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="error-code">404</div>
+    <h1>Page not found</h1>
+    <p>This resource doesn't exist in the <code style="background:#e6f2fc;color:#0078D4;padding:2px 6px;border-radius:4px;">$web</code> container — or it may have been moved.</p>
+    <a href="index.html" class="btn btn-primary">← Back to Home</a>
+  </div>
+</body>
+</html>
