@@ -22,8 +22,6 @@ https://adebolaportfolio.z1.web.core.windows.net/
 
 ## Screenshots
 
-All Azure Portal screenshots are located in the `/screenshots` folder:
-
 | File | Description |
 |------|-------------|
 | `storage-account-created.png` | Storage account overview showing configuration details |
